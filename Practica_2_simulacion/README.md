@@ -1,4 +1,4 @@
-# Práctica 3 - Simulacion
+# Práctica 2 - Simulacion
 
 - **1) Ejecución programa Multiplicador** 
 <p align="center">
