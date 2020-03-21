@@ -5,9 +5,6 @@ end Param;
 architecture Circuit of Param is
     signal B: bit;
     begin 
-        process(A,B,C);
-        begin
-            B <= A and C;
-            C <= not B;
-        end process;
+        B <= A and C after 3 ns;
+        C <= not B;
 end Circuit;
