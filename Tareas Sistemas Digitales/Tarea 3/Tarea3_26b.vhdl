@@ -1,8 +1,8 @@
-entity paramc is 
+entity param26b is 
     port(A, B, C, D: in bit;
     G: out bit);
-end paramc;
-architecture circuit of paramc is
+end param26b;
+architecture circuit of param26b is
     signal E, F: bit;
 begin
     process(A, B, C, E, F)

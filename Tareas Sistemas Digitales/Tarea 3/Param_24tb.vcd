@@ -1,0 +1,69 @@
+$date
+  Tue Mar 24 16:22:03 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module param24_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var reg 1 $ d $end
+$var reg 1 % z $end
+$scope module uut $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 1 ( c $end
+$var reg 1 ) d $end
+$var reg 1 * z $end
+$var reg 1 + e $end
+$var reg 1 , f $end
+$var reg 1 - g $end
+$var reg 1 . h $end
+$var reg 1 / i $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+1"
+1#
+1$
+0%
+1&
+1'
+1(
+1)
+0*
+0+
+0,
+0-
+0.
+0/
+#1000000
+0!
+0&
+#2000000
+1!
+1&
+1/
+#3000000
+0!
+0&
+#4000000
+#5000000
+1+
+1,
+#6000000
+#7000000
+0/
+#8000000
