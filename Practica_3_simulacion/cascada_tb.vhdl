@@ -27,7 +27,7 @@ architecture behaviour of CascadeCounter_tb is
 	wait for clk_period/2;
 	clk <= '1';
 	wait for clk_period/2;
-	end process;
+	end process; 
 	
 	startup : process
 	begin
