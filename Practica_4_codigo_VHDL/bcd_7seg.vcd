@@ -1,0 +1,77 @@
+$date
+  Tue Mar 24 18:57:40 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb_bcd_7seg $end
+$var reg 4 ! bcdin[3:0] $end
+$var reg 7 " seven_segment[6:0] $end
+$scope module uut $end
+$var reg 4 # bcdin[3:0] $end
+$var reg 7 $ seven_segment[6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b0000001 "
+b0000 #
+b0000001 $
+#100000000
+b0001 !
+b1001111 "
+b0001 #
+b1001111 $
+#200000000
+b0010 !
+b0010010 "
+b0010 #
+b0010010 $
+#300000000
+b0011 !
+b0000110 "
+b0011 #
+b0000110 $
+#400000000
+b0100 !
+b1001100 "
+b0100 #
+b1001100 $
+#500000000
+b0101 !
+b0100100 "
+b0101 #
+b0100100 $
+#600000000
+b0110 !
+b0100000 "
+b0110 #
+b0100000 $
+#700000000
+b0111 !
+b0001111 "
+b0111 #
+b0001111 $
+#800000000
+b1000 !
+b0000000 "
+b1000 #
+b0000000 $
+#900000000
+b1001 !
+b0000100 "
+b1001 #
+b0000100 $
+#1000000000
+b0000 !
+b0000001 "
+b0000 #
+b0000001 $
