@@ -4,6 +4,6 @@
 - **Cada dígito comparte 8 señales de control para iluminar los segmentos LED individualmente.)**
 - **Cada digito cuenta con una señal de control de anodo común de manera independiente)** 
 <p align="center">
-  <img src="https://github.com/EdisonAltamirano/Advanced-Digital-Systems-Laboratory/blob/master/Practica_4_esquematico/docs/Esquematico_final.png" width="600" height="440" align="center"/>
+  <img src="https://github.com/EdisonAltamirano/Advanced-Digital-Systems-Laboratory/blob/master/Practica_4_esquematico/docs/Esquematico_final.PNG" width="600" height="440" align="center"/>
 
 </p>
