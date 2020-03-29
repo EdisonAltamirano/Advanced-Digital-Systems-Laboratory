@@ -1,4 +1,10 @@
 v 4
+file . "Mux4to1_Counter_tb.vhdl" "ee71df7de1cd3c3cdc33fbae342aa9b70b018709" "20200329032454.381":
+  entity mux4to1_counter_tb at 1( 0) + 0 on 65;
+  architecture bench of mux4to1_counter_tb at 8( 112) + 0 on 66;
+file . "Counter_2bit.vhdl" "2843296b6e5ba0b14b8ccc57de57fe8eaef4be43" "20200329075402.733":
+  entity bit_counter at 1( 0) + 0 on 49;
+  architecture bit_counter_ar of bit_counter at 12( 244) + 0 on 50;
 file . "7segment_decodertb.vhdl" "9ec6d96fb4c07196e1002ba7a9fdf77205bfb95a" "20200325005508.199":
   entity tb_bcd_7seg at 1( 0) + 0 on 21;
   architecture behavior of tb_bcd_7seg at 7( 92) + 0 on 22;
@@ -11,3 +17,10 @@ file . "Multiplexer.vhdl" "d98fc84016a321ce33394d2647a682cf58889f04" "2020032500
 file . "7segment_decoder.vhdl" "7708cb5da08c7d88acdea544a95c2f0856e9936b" "20200325005413.310":
   entity bcd_7segment at 1( 0) + 0 on 19;
   architecture behavioral of bcd_7segment at 9( 197) + 0 on 20;
+file . "Counter_2bit_tb.vhdl" "c44ce8a4797f2bac1aac216ea685b0cb0bbaa1be" "20200329062132.232":
+  entity bit_counter_tb at 2( 2) + 0 on 47;
+  architecture bench of bit_counter_tb at 9( 110) + 0 on 48;
+  architecture behavioral of counter at 10( 243) + 0 on 38;
+file . "Mux4to1_Counter.vhdl" "62801814674803b77d1d07f73569911025671183" "20200329032224.355":
+  entity mux4to1_counter at 1( 0) + 0 on 61;
+  architecture behavior of mux4to1_counter at 11( 255) + 0 on 62;

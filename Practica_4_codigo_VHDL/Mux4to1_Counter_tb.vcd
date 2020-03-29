@@ -1,0 +1,395 @@
+$date
+  Sat Mar 28 21:25:01 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module numeric_bit $end
+$upscope $end
+$scope module mux4to1_counter_tb $end
+$var reg 1 ! a1 $end
+$var reg 1 " b1 $end
+$var reg 1 # c1 $end
+$var reg 1 $ d1 $end
+$var reg 1 % clear $end
+$var reg 1 & clock $end
+$var reg 1 ' clock1 $end
+$var reg 1 ( mux $end
+$var reg 1 ) stop_the_clock $end
+$scope module uut $end
+$var reg 1 * a1 $end
+$var reg 1 + b1 $end
+$var reg 1 , c1 $end
+$var reg 1 - d1 $end
+$var reg 1 . clear $end
+$var reg 1 / clock $end
+$var reg 1 0 clock1 $end
+$var reg 1 1 mux $end
+$var reg 1 2 carry1 $end
+$var reg 2 3 count_out1[1:0] $end
+$scope module ff0 $end
+$var reg 1 4 clk $end
+$var reg 1 5 rst $end
+$var reg 2 6 count_out[1:0] $end
+$var reg 1 7 carry $end
+$var reg 1 8 sig1 $end
+$var reg 1 9 sig2 $end
+$var reg 2 : count_out_sig[1:0] $end
+$var reg 1 ; carrys $end
+$upscope $end
+$scope module ff1 $end
+$var reg 1 < a $end
+$var reg 1 = b $end
+$var reg 1 > c $end
+$var reg 1 ? d $end
+$var reg 1 @ s0 $end
+$var reg 1 A s1 $end
+$var reg 1 B z $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+1$
+1%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+1-
+1.
+0/
+00
+01
+02
+b00 3
+04
+15
+b00 6
+07
+18
+09
+b00 :
+0;
+0<
+0=
+0>
+1?
+0@
+0A
+0B
+#5000000
+0%
+1&
+0.
+1/
+14
+05
+#10000000
+0&
+0/
+04
+#15000000
+1&
+1/
+b01 3
+14
+b01 6
+08
+19
+b01 :
+1@
+#20000000
+0&
+0/
+04
+#25000000
+1&
+1/
+b10 3
+14
+b10 6
+18
+b10 :
+0@
+1A
+#30000000
+0&
+0/
+04
+#35000000
+1&
+1(
+1/
+11
+b11 3
+14
+b11 6
+08
+09
+b11 :
+1@
+1B
+#40000000
+0&
+0/
+04
+#45000000
+1&
+1'
+0(
+1/
+10
+01
+12
+b00 3
+14
+b00 6
+17
+18
+b00 :
+1;
+0@
+0A
+0B
+#50000000
+0&
+0'
+0/
+00
+04
+#55000000
+1&
+1'
+1/
+10
+b01 3
+14
+b01 6
+08
+19
+b01 :
+1@
+#60000000
+0&
+0'
+0/
+00
+04
+#65000000
+1&
+1'
+1/
+10
+b10 3
+14
+b10 6
+18
+b10 :
+0@
+1A
+#70000000
+0&
+0'
+0/
+00
+04
+#75000000
+1&
+1'
+1(
+1/
+10
+11
+b11 3
+14
+b11 6
+08
+09
+b11 :
+1@
+1B
+#80000000
+0&
+0'
+0/
+00
+04
+#85000000
+1&
+1'
+0(
+1/
+10
+01
+b00 3
+14
+b00 6
+18
+b00 :
+0@
+0A
+0B
+#90000000
+0&
+0'
+0/
+00
+04
+#95000000
+1&
+1'
+1/
+10
+b01 3
+14
+b01 6
+08
+19
+b01 :
+1@
+#100000000
+0&
+0'
+0/
+00
+04
+#105000000
+0$
+1%
+1&
+0'
+0-
+1.
+1/
+00
+02
+b00 3
+14
+15
+b00 6
+07
+18
+09
+b00 :
+0;
+0?
+0@
+0A
+#110000000
+0%
+0&
+0.
+0/
+04
+05
+#115000000
+1&
+1/
+b01 3
+14
+b01 6
+08
+19
+b01 :
+1@
+#120000000
+0&
+0/
+04
+#125000000
+1&
+1/
+b10 3
+14
+b10 6
+18
+b10 :
+0@
+1A
+#130000000
+0&
+0/
+04
+#135000000
+1&
+1/
+b11 3
+14
+b11 6
+08
+09
+b11 :
+1@
+#140000000
+0&
+0/
+04
+#145000000
+1&
+1'
+1/
+10
+12
+b00 3
+14
+b00 6
+17
+18
+b00 :
+1;
+0@
+0A
+#150000000
+0&
+0'
+0/
+00
+04
+#155000000
+1&
+1'
+1/
+10
+b01 3
+14
+b01 6
+08
+19
+b01 :
+1@
+#160000000
+0&
+0'
+1)
+0/
+00
+04
+#165000000
+1&
+1'
+1/
+10
+b10 3
+14
+b10 6
+18
+b10 :
+0@
+1A
+#170000000

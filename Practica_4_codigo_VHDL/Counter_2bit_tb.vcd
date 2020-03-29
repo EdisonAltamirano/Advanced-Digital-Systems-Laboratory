@@ -1,0 +1,162 @@
+$date
+  Sun Mar 29 00:21:48 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bit_counter_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 2 # count_out[1:0] $end
+$var reg 1 $ stop_the_clock $end
+$scope module uut $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$var reg 2 ' count_out[1:0] $end
+$var reg 1 ( sig1 $end
+$var reg 1 ) sig2 $end
+$var reg 2 * count_out_sig[1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+b00 #
+0$
+0%
+1&
+b00 '
+1(
+0)
+b00 *
+#5000000
+1!
+0"
+1%
+0&
+#10000000
+0!
+0%
+#15000000
+1!
+b01 #
+1%
+b01 '
+0(
+1)
+b01 *
+#20000000
+0!
+0%
+#25000000
+1!
+b10 #
+1%
+b10 '
+1(
+b10 *
+#30000000
+0!
+0%
+#35000000
+1!
+b11 #
+1%
+b11 '
+0(
+0)
+b11 *
+#40000000
+0!
+0%
+#45000000
+1!
+b00 #
+1%
+b00 '
+1(
+b00 *
+#50000000
+0!
+0%
+#55000000
+1!
+b01 #
+1%
+b01 '
+0(
+1)
+b01 *
+#60000000
+0!
+0%
+#65000000
+1!
+b10 #
+1%
+b10 '
+1(
+b10 *
+#70000000
+0!
+0%
+#75000000
+1!
+b11 #
+1%
+b11 '
+0(
+0)
+b11 *
+#80000000
+0!
+0%
+#85000000
+1!
+b00 #
+1%
+b00 '
+1(
+b00 *
+#90000000
+0!
+0%
+#95000000
+1!
+b01 #
+1%
+b01 '
+0(
+1)
+b01 *
+#100000000
+0!
+0%
+#105000000
+1!
+1"
+b00 #
+1%
+1&
+b00 '
+1(
+0)
+b00 *
+#110000000
+0!
+1$
+0%
+#115000000
+1!
+1%
+#120000000

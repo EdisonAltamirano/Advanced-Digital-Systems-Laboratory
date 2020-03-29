@@ -9,7 +9,6 @@
 - **2) Ejecución programa Multiplexer.vhdl**
 <p align="center">
   <img src="https://github.com/EdisonAltamirano/Advanced-Digital-Systems-Laboratory/blob/master/Practica_4_codigo_VHDL/docs/Multiplexer.PNG" width="600" height="440" align="center"/>
-
 </p>
 
 
