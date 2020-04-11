@@ -1,0 +1,148 @@
+$date
+  Sat Apr 11 04:09:06 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module subtractor_4bit_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 4 " b[3:0] $end
+$var reg 1 # borrow $end
+$var reg 4 $ diff[3:0] $end
+$scope module uut $end
+$var reg 4 % a[3:0] $end
+$var reg 4 & b[3:0] $end
+$var reg 1 ' borrow $end
+$var reg 4 ( diff[3:0] $end
+$var reg 3 ) s[2:0] $end
+$var reg 4 * l[3:0] $end
+$scope module u0 $end
+$var reg 1 + a $end
+$var reg 1 , b $end
+$var reg 1 - c $end
+$var reg 1 . sum $end
+$var reg 1 / carry $end
+$upscope $end
+$scope module u1 $end
+$var reg 1 0 a $end
+$var reg 1 1 b $end
+$var reg 1 2 c $end
+$var reg 1 3 sum $end
+$var reg 1 4 carry $end
+$upscope $end
+$scope module u2 $end
+$var reg 1 5 a $end
+$var reg 1 6 b $end
+$var reg 1 7 c $end
+$var reg 1 8 sum $end
+$var reg 1 9 carry $end
+$upscope $end
+$scope module ue $end
+$var reg 1 : a $end
+$var reg 1 ; b $end
+$var reg 1 < c $end
+$var reg 1 = sum $end
+$var reg 1 > carry $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1100 !
+b0010 "
+1#
+b1010 $
+b1100 %
+b0010 &
+1'
+b1010 (
+b101 )
+b1101 *
+0+
+1,
+1-
+0.
+1/
+00
+01
+12
+13
+04
+15
+16
+07
+08
+19
+1:
+1;
+1<
+1=
+1>
+#5000000
+b1010 !
+b1000 $
+b1010 %
+b1000 (
+b111 )
+10
+03
+14
+05
+17
+08
+19
+1<
+1=
+#10000000
+b0011 !
+b1110 "
+0#
+b0101 $
+b0011 %
+b1110 &
+0'
+b0101 (
+b011 )
+b0001 *
+1+
+1.
+06
+18
+09
+0:
+0;
+0<
+0=
+0>
+#15000000
+b0110 !
+b1111 "
+b0111 $
+b0110 %
+b1111 &
+b0111 (
+b000 )
+b0000 *
+0+
+0,
+1.
+0/
+02
+13
+04
+15
+07
+18
+09
+0<
+0=
+#20000000

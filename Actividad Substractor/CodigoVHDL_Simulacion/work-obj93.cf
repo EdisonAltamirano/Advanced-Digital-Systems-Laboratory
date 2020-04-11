@@ -1,0 +1,10 @@
+v 4
+file . "Substractor4bits_tb.vhdl" "9a6f63f721d3f5449166f966eda06236cddffde5" "20200411090743.431":
+  entity subtractor_4bit_tb at 1( 0) + 0 on 17;
+  architecture bench of subtractor_4bit_tb at 8( 112) + 0 on 18;
+file . "Substractor4bits.vhdl" "71beda128fff59e79a29593ee3400bfd187ff3ab" "20200411090421.403":
+  entity subtractor_4bit at 1( 0) + 0 on 15;
+  architecture subtractor_4bit_arc of subtractor_4bit at 13( 301) + 0 on 16;
+file . "FullAdder.vhdl" "788fb7bc0b56a78661e3360501ede6acc5d2f245" "20200411090234.940":
+  entity fa at 1( 0) + 0 on 11;
+  architecture fa_arc of fa at 13( 238) + 0 on 12;
