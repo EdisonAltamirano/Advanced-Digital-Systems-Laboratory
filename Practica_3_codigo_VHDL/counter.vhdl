@@ -22,4 +22,4 @@ architecture LogicOperation of FourBitSynchCounter is
 	FF2: jkff port map (J => J2, K => J2, rst => rst, Clk => Clk, Q => Q2, Qb => Q2b);
 	FF3: jkff port map (J => J3, K => J3, rst => rst, Clk => Clk, Q => Q3, Qb => Q3b);
 	
-end architecture LogicOperation;
+end architecture LogicOperation; 

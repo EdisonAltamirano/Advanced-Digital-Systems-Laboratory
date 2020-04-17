@@ -1,0 +1,7 @@
+v 4
+file . "Ejercicio2_tb.vhdl" "aed16354b5cb7c9c1e9503b02ea6fe37dba0a032" "20200417144548.927":
+  entity circuit_tb at 2( 2) + 0 on 49;
+  architecture bench of circuit_tb at 9( 106) + 0 on 50;
+file . "Ejercicio2.vhdl" "45d2c93c54e1b55a1e88986a8ba6603647f50f56" "20200417144537.525":
+  entity circuit at 1( 0) + 0 on 47;
+  architecture test of circuit at 8( 165) + 0 on 48;

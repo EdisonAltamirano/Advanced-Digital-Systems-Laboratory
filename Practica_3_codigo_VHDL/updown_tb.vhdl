@@ -24,13 +24,13 @@ architecture behaviour of Decade_Counter_tb is
 	signal UPDN, rco : bit;
 	signal cout, cin : bit_vector(3 downto 0);
 	
-	constant clk_period : time := 10 ns;
+	constant clk_period : time := 1 ns;
 	
 	begin
 	
 	UpDown: Decade_Counter port map(Clear => rst, Clock => Clk, Load => load, Enable => enable, Up => UPDN, Counter_Input => cin, RCO => rco, Counter_Output => cout);
 	
-	clk_process :process
+	clk_process :process 
 	begin
 	clk <= '0';
 	wait for clk_period/2;
