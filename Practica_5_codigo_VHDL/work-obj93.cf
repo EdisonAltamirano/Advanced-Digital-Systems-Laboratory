@@ -1,7 +1,7 @@
 v 4
-file . "Mod60Counter.vhdl" "7d3ff8a1b577e78b0de1e3bef71e6b4106bdf4b4" "20200417193015.873":
-  entity mod60_counter at 1( 0) + 0 on 91;
-  architecture test of mod60_counter at 12( 298) + 0 on 92;
+file . "Mod60Counter.vhdl" "e0ec6a81bc1f0e488cb7bb46de9372864d348779" "20200425004630.053":
+  entity mod60_counter at 1( 0) + 0 on 115;
+  architecture test of mod60_counter at 12( 298) + 0 on 116;
 file . "ThirteenCounter.vhdl" "7f6631d30d5a66f756d1ef966e9d371dd4953fbd" "20200417194034.209":
   entity mod13_counter at 1( 0) + 0 on 95;
   architecture two_seg_arch of mod13_counter at 12( 238) + 0 on 96;
@@ -23,6 +23,6 @@ file . "SixCounter.vhdl" "febc33cee88ea1ccacef412ce272447611dd71df" "20200417194
 file . "ThirteenCounter_tb.vhdl" "5b6a74d067cc4baed813adacec6ea8bec933345e" "20200415100159.298":
   entity mod13_counter_tb at 1( 0) + 0 on 43;
   architecture bench of mod13_counter_tb at 8( 110) + 0 on 44;
-file . "Mod60Counter_tb.vhdl" "fc89559d06c58345d6ed60fa7dde4634c09f3801" "20200417194628.432":
-  entity mod60_counter_tb at 2( 2) + 0 on 105;
-  architecture bench of mod60_counter_tb at 9( 112) + 0 on 106;
+file . "Mod60Counter_tb.vhdl" "fc89559d06c58345d6ed60fa7dde4634c09f3801" "20200425004645.782":
+  entity mod60_counter_tb at 2( 2) + 0 on 117;
+  architecture bench of mod60_counter_tb at 9( 112) + 0 on 118;
