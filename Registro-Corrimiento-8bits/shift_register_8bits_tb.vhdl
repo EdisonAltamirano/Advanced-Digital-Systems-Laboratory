@@ -41,7 +41,7 @@ begin
   end process;                                
   clrb <= '0', '1' after period*4, '0' after period*20;
   s <= "00", "11" after period*5, "10" after period*6, "01" after period*12, "00" after period*16;
-  x <= "10101010";
+  x <= "10101011";
   rsd <= '0';
   lsd <= '1';
 end bench;

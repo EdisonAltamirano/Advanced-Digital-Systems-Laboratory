@@ -36,7 +36,7 @@ begin
 
     clr <= '0', '1' after period*4, '0' after period*20;
     mode <= "00", "11" after period*5, "10" after period*6, "01" after period*12, "00" after period*16;
-    parallel <= "1010";
+    parallel <= "0011";
     sdr <= '0';
     sdl <= '1';
 
