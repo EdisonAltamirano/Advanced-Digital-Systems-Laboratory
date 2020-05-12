@@ -1,7 +1,7 @@
 v 4
-file . "reto2_tb.vhdl" "1e2f59471ddb2109a6b482feedb7c4ba2c2d36f5" "20200510213500.134":
-  entity lcd_tb at 1( 0) + 0 on 29;
-  architecture behav of lcd_tb at 9( 129) + 0 on 30;
-file . "reto2.vhdl" "391013f004c52b599fab9066f5442e0bbfd129c3" "20200510111256.806":
-  entity lcd at 1( 0) + 0 on 17;
-  architecture behav of lcd at 13( 252) + 0 on 18;
+file . "display_lcd.vhdl" "654a2d45b928249b802f58789cd818693594b6cf" "20200512053614.366":
+  entity display_lcd at 1( 0) + 0 on 13;
+  architecture behav of display_lcd at 13( 253) + 0 on 14;
+file . "display_lcd_tb.vhdl" "8faef7a1b2cfc451d7c56c01f54acc84c6cfc191" "20200512064331.010":
+  entity display_lcd_tb at 1( 0) + 0 on 33;
+  architecture behav of display_lcd_tb at 9( 137) + 0 on 34;
