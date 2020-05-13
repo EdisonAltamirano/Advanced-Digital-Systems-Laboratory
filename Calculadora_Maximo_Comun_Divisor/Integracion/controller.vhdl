@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 
 entity controller is 
     port(
-        X_i, Y_i : out std_logic_vector(3 downto 0);
         X_sel, Y_sel: out std_logic;
         X_ld, Y_ld : out std_logic;
         X_sub, Y_sub : out std_logic;

@@ -1,15 +1,15 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity calcmcm is
+entity integracion is
 	port(
 			Clk: in std_logic;
 			X_i, Y_i: in std_logic_vector(3 downto 0);
 			Data_o: out std_logic_vector(3 downto 0)
 		);
-end calcmcm;
+end integracion;
 
-architecture arch of calcmcm is
+architecture arch of integracion is
 	
 	component datapath is
 		port(
@@ -39,7 +39,7 @@ architecture arch of calcmcm is
 	
 	begin
 	
-		DPATH: datapath port map(X_i, Y_i, X_sel, Y_sel, X_ld, Y_ld, X_sub, Y_sub, O_enb, Clk, X_gt_Y, X_eq_Y, X_lt_Y, Data_o);
-		CONTR: controller port map(X_sel, Y_sel, X_ld, Y_ld, X_sub, Y_sub, O_enb, Clk, X_gt_Y, X_eq_Y, X_lt_Y);
+		CONTROLLER1: controller port map(X_sel, Y_sel, X_ld, Y_ld, X_sub, Y_sub, O_enb, Clk, X_gt_Y, X_eq_Y, X_lt_Y);
+		DATAPATH1: datapath port map(X_i, Y_i, X_sel, Y_sel, X_ld, Y_ld, X_sub, Y_sub, O_enb, Clk, X_gt_Y, X_eq_Y, X_lt_Y, Data_o);
 		
 end arch;

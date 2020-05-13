@@ -9,7 +9,6 @@ architecture bench of controller_tb is
 
   component controller 
       port(
-          X_i, Y_i : out std_logic_vector(3 downto 0);
           X_sel, Y_sel: out std_logic;
           X_ld, Y_ld : out std_logic;
           X_sub, Y_sub : out std_logic;
@@ -19,7 +18,6 @@ architecture bench of controller_tb is
           );
   end component;
 
-  signal X_i, Y_i: std_logic_vector(3 downto 0);
   signal X_sel, Y_sel: std_logic;
   signal X_ld, Y_ld: std_logic;
   signal X_sub, Y_sub: std_logic;
@@ -32,9 +30,7 @@ architecture bench of controller_tb is
 
 begin
 
-  uut: controller port map ( X_i    => X_i,
-                             Y_i    => Y_i,
-                             X_sel  => X_sel,
+  uut: controller port map ( X_sel  => X_sel,
                              Y_sel  => Y_sel,
                              X_ld   => X_ld,
                              Y_ld   => Y_ld,
@@ -50,7 +46,30 @@ begin
   begin
   
     -- Put initialisation code here
-
+    X_gt_Y <= '1';
+    X_eq_Y <= '0';
+    X_lt_Y <= '1';
+    wait for 5 ns;   
+    X_gt_Y <= '0';
+    X_eq_Y <= '0';
+    X_lt_Y <= '1';
+    wait for 5 ns;   
+    X_gt_Y <= '0';
+    X_eq_Y <= '0';
+    X_lt_Y <= '0';
+    wait for 5 ns;   
+    X_gt_Y <= '1';
+    X_eq_Y <= '1';
+    X_lt_Y <= '1';
+    wait for 5 ns;   
+    X_gt_Y <= '0';
+    X_eq_Y <= '0';
+    X_lt_Y <= '0';
+    wait for 5 ns;   
+    X_gt_Y <= '0';
+    X_eq_Y <= '1';
+    X_lt_Y <= '1';
+    wait for 5 ns;   
 
     -- Put test bench stimulus code here
 
