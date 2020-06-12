@@ -1,4 +1,4 @@
-# Práctica 4 - Codigo VHDL
+# Teclado PS/2
 
 - **1)Teclado PS/2** 
 <p align="center">

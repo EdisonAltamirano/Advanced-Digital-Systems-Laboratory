@@ -1,4 +1,4 @@
-# Práctica 4 - Codigo VHDL
+# Puerto VGA
 
 - **1)Puerto VGA** 
 <p align="center">
