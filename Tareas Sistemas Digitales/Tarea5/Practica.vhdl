@@ -22,14 +22,14 @@ architecture test of exercise is
     port(A1, A2: in bit; 
         z: out bit);
     end component;
-    component Or1
+    component Nor1
     port(A1, A2: in bit; 
         z: out bit);
     end component;
     signal E: bit;
     begin
         G1 : And1 port map(A, B, E);
-        G2: Or1 port map(E,C,X);
+        G2: Nor1 port map(E,C,X);
     end test ; -- test
 
 
